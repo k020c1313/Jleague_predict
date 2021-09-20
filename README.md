@@ -51,3 +51,48 @@
     - ターゲットエンコーディング
     - スタジアムの収容率
     - チーム成績テーブル
+- Merge All Data
+  - 付加情報データ＋追加データ
+    - スタジアムの場所情報をマージ
+    - チームの本拠地に緯度経度情報をマージ
+    - 先発メンバーのトータル年棒をマージ
+    - チームの成績情報をマージ
+  - 学習用・テスト用データ＋付加情報データ
+  - 特徴量生成2
+    - チーム間の成績を比較
+    - 開催地とホーム本拠地とアウェイ本拠地の距離を算出
+### isualization2
+- 相関分析
+- スタジアムの分析
+### J1/J2 in a model
+- Prepare Dataset
+  - 欠損値補完
+  - Drop Columns
+  - 別目的変数を作成
+  - データ分割
+  - 特徴量設定
+  - 学習パラメータ設定
+- Train Single Model
+  - LightGBM
+  - XGBoost
+  - CatBoost
+  - ElasticNet
+  - DeepLearning
+  - SVM
+- Ensemble - Stacking
+  - Prepare Dataset
+  - Level2 LightGBM
+  - Postprocess
+- Ensemble - Weighted Average
+  - Calcurate
+  - Postprocess
+### Parameter Tuning
+- LightGBM
+- XGBoost
+- CatBoost
+- ElasticNet
+- DeepLearning
+- SVM
+### Feature Selection
+- Boruta
+- Lasso
