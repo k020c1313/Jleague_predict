@@ -16,4 +16,14 @@
 - Helper functions
 - Base Model
 ### Prepare Data
-
+- Load
+- Concatenate
+  - 追加データの結合
+  - 学習用・テスト用データの結合
+### Visualization
+- 基本統計量
+- グラフ化
+### Preprocessing
+- Cleansing / Feature Engineering
+  - 学習用・テスト用データに対する処理
+    - 
