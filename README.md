@@ -11,5 +11,9 @@
 ## NoteBook 目次
 
 ### Preparation
-
 - Google Drive に接続
+- Import Libraries
+- Helper functions
+- Base Model
+### Prepare Data
+
