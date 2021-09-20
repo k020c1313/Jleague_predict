@@ -12,4 +12,4 @@
 
 ### Preparation
 
-#### Google Drive に接続
+- Google Drive に接続
