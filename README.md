@@ -26,4 +26,5 @@
 ### Preprocessing
 - Cleansing / Feature Engineering
   - 学習用・テスト用データに対する処理
+    - 不要列の削除準備
     - 
